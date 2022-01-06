@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "VisualForce Challenges",
+  "namespace": "",
+  "sfdcLoginUrl": "https://mindful-koala-chu26z-dev-ed.my.salesforce.com/",
+  "sourceApiVersion": "52.0"
+}
