@@ -1,0 +1,15 @@
+<apex:page standardController="Account" recordSetVar="myAccounts" extensions="ChallengeThreeController">
+
+<apex:pageBlock>
+    <apex:pageBlockTable value="{!myAccounts}" var="acc">
+    <apex:column value="{!acc.name}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+<apex:form>
+    <apex:pageBlock title="Action Binding">
+    <apex:commandButton action="{!DisplayAccountName}" value="Display Greeting"/>
+    <p>{!message}</p>
+</apex:pageBlock>
+</apex:form>
+
+</apex:page>
