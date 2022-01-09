@@ -7,7 +7,7 @@
 </apex:pageBlock>
 <apex:form>
     <apex:pageBlock title="Action Binding">
-    <apex:commandButton action="{!DisplayAccountName}" value="Display Greeting"/>
+    <apex:commandButton action="{!getMessage}" value="Display Greeting"/>
     <p>{!message}</p>
 </apex:pageBlock>
 </apex:form>
